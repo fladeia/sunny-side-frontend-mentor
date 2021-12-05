@@ -20,3 +20,8 @@ const GlobalStyle = createGlobalStyle`
 #To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
 The :root selector matches the document's root element.
 In HTML, the root element is always the html element.
+
+//img resizing
+
+export const Logo = styled.img` width: 11rem; `
+<C.Logo src={logo} alt="Logo"></C.Logo>
