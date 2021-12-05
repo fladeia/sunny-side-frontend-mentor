@@ -6,8 +6,10 @@ export const Hero = () => {
   return (
     <C.Container>
       <Navbar/>
-      <C.Text>Somos criativos</C.Text>
-      <img src={arrowDown}></img>
+      <C.Title>
+        <C.Text>Somos criativos</C.Text>
+        <img src={arrowDown}></img>
+      </C.Title>
     </C.Container>
   )
 }
