@@ -11,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
  }
 
  :root {
+   font-size: 62.5%;
+   
 /* Primary */
   --softRed: hsl(7, 99%, 70%);
   --yellow: hsl(51, 100%, 49%);
@@ -24,10 +26,6 @@ const GlobalStyle = createGlobalStyle`
   --darkGrayishBlue: hsl(232, 10%, 55%);
   --grayishBlue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%);
- }
-
- body {
-   font-size: 18px;
  }
 `
 

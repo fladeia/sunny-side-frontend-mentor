@@ -1,5 +1,5 @@
 import * as C from './styles.js'
-import { Navbar } from '../Navbar/index.jsx'
+import { Navbar } from '../../parts/Navbar'
 import arrowDown from '../../images/icon-arrow-down.svg'
 
 export const Hero = () => {
