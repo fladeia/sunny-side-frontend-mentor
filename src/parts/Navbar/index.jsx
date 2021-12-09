@@ -1,6 +1,7 @@
 import * as C from './styles'
 import logo from '../../images/logo.svg'
-import IconHamburger from '../../images/icon-hamburger.svg'
+import { HamburgerItem } from '../HamburgerItem'
+import { ContactButton } from '../ContactButton'
 
 export const Navbar = () => {
   return (
@@ -12,9 +13,9 @@ export const Navbar = () => {
           <li>Serviços</li>
           <li>Projetos</li>
         </ul>
-        <C.Button>Contato</C.Button>
+        <ContactButton /> 
       </C.Menu>
-      <C.IconHamburger src={IconHamburger} alt="Hamburger icon"></C.IconHamburger>
+      <HamburgerItem />
     </C.Nav>
   )
 }
