@@ -57,6 +57,7 @@ export const Button = styled.div`
   border-radius: 3rem;
   background-color: var(--white);
   text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
 
   :hover {
     background-color: hsl(0, 0%, 100%, 0.3);

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import transformDesktop from '../../images/desktop/image-transform.jpg'
-import transformMobile from '../../images/mobile/image-transform.jpg'
+import standOutDesktop from '../../images/desktop/image-stand-out.jpg'
+import standOutMobile from '../../images/mobile/image-stand-out.jpg'
 
 export const Container = styled.div`
   display: grid;
@@ -22,7 +22,6 @@ export const Info = styled.section`
 
   @media (max-width: 1024px) {
     height: 44rem;
-    order: 2;
     padding: 4rem;
     text-align: center;
     align-items: center;
@@ -57,11 +56,10 @@ export const Span = styled.span`
 
 export const Img = styled.div`
   height: 60rem;
-  background: url(${transformDesktop}) no-repeat center/cover;
+  background: url(${standOutDesktop}) no-repeat center/cover;
 
   @media (max-width: 1024px) {
-    order: 1;
     height: 31.2rem;
-    background: url(${transformMobile}) no-repeat center/cover;
+    background: url(${standOutMobile}) no-repeat center/cover;
   }
 `

@@ -8,7 +8,7 @@ export const Hero = () => {
       <Navbar/>
       <C.Title>
         <C.Text>Somos criativos</C.Text>
-        <img src={arrowDown}></img>
+        <img src={arrowDown} alt="arrow Down"></img>
       </C.Title>
     </C.Container>
   )
