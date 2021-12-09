@@ -4,6 +4,7 @@ import { Section1 } from './components/Section1'
 import { Section2 } from './components/Section2'
 import { Section3 } from './components/Section3'
 import { Testimonials } from './components/Testimonials'
+import { Ilustrations } from './components/Ilustrations'
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Section2 />
       <Section3 />
       <Testimonials />
+      <Ilustrations />
     </Wrapper>
   )
 }
