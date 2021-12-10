@@ -9,7 +9,7 @@ import orangeMobile from '../../images/mobile/image-gallery-orange.jpg'
 import sugarcubesMobile from '../../images/mobile/image-gallery-sugar-cubes.jpg'
 
 export const Container = styled.div`
-  height: 450px;
+  height: 375px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 

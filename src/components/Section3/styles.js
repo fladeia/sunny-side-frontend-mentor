@@ -20,7 +20,8 @@ export const Info = styled.section`
   text-align: center;
 
   @media (max-width: 1024px) {
-    padding: 4rem;
+    padding: 6rem 2rem;
+    letter-spacing: -1px;
     text-align: center;
     align-items: center;
   }
@@ -33,14 +34,15 @@ export const Subtitle = styled.h2`
     props.photography ? 'var(--darkBlue)' : 'var(--darkDesaturatedCyan)'};
 
   @media (max-width: 1024px) {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 900;
   }
 `
 
 export const Text = styled.p`
   font-family: 'Barlow', sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
   margin-top: 3rem;
   color: ${props =>
     props.photography ? 'var(--darkBlue)' : 'var(--darkDesaturatedCyan)'};

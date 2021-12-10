@@ -20,16 +20,18 @@ export const Container = styled.div`
 export const Subtitle = styled.div`
   font-family: 'Fraunces', serif;
   place-self: center;
-  color: var(--veryDarkGrayishBlue);
+  color: var(--darkGrayishBlue);
+  font-size: 3rem;
+  text-transform: uppercase;
 
   @media (min-width: 1024px) {
-    font-size: 3rem;
     grid-column-start: 1;
     grid-column-end: 4;
   }
 
   @media (max-width: 1024px) {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
   }
 `
 
@@ -39,8 +41,8 @@ export const Info = styled.section`
   align-items: center;
 
   img {
-    width: 96px;
-    height: 96px;
+    width: 82px;
+    height: 82px;
     border-radius: 50%;
   }
 `
@@ -56,7 +58,7 @@ export const Text = styled.p`
 
   @media (max-width: 1024px) {
     width: 95%;
-    margin: 4rem 0;
+    margin: 3.5rem 0;
   }
 `
 

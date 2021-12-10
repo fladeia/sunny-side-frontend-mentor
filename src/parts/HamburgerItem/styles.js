@@ -5,6 +5,6 @@ export const IconHamburger = styled.img`
 
   @media (max-width: 1024px) {
     display: block;
-    width: 2rem;
+    width: 2.5rem;
   }
 `

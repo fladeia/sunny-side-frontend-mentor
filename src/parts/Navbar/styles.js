@@ -4,7 +4,7 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem;
+  padding: 4rem 3rem;
 `
 
 export const Logo = styled.img`
@@ -13,7 +13,7 @@ export const Logo = styled.img`
 
 export const Menu = styled.div`
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
 
   ul {
     width: 30rem;
@@ -24,7 +24,7 @@ export const Menu = styled.div`
 
   li {
     font-family: 'Barlow', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: var(--white);
     list-style-type: none;
   }
@@ -35,15 +35,15 @@ export const Menu = styled.div`
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 12rem;
-    left: 7%;
-    right: 7%;
-    padding: 4rem 0;
+    top: 9rem;
+    left: 3rem;
+    right: 3rem;
+    padding: 6rem 0 5rem;
     background-color: var(--white);
 
     ul {
       flex-direction: column;
-      gap: 2rem;
+      gap: 3rem;
     }
 
     li {

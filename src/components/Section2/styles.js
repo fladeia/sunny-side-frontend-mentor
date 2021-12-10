@@ -31,6 +31,7 @@ export const Info = styled.section`
 export const Subtitle = styled.h2`
   font-family: 'Fraunces', serif;
   font-size: 4.5rem;
+  font-weight: 900;
 
   @media (max-width: 1024px) {
     font-size: 3.5rem;
@@ -44,9 +45,10 @@ export const Text = styled.p`
 `
 
 export const Span = styled.span`
-  width: 11rem;
+  width: 12rem;
   font-family: 'Fraunces', serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
   background: linear-gradient(
     to bottom,
     transparent 50%,
