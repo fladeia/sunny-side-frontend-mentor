@@ -12,17 +12,38 @@ export const Container = styled.div`
   height: 450px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 `
 
 export const Image3 = styled.div`
   background: url(${coneDesktop}) no-repeat center/cover;
+
+  @media (max-width: 1024px) {
+    background: url(${coneMobile}) no-repeat center/cover;
+  }
 `
 export const Image1 = styled.div`
   background: url(${milkbottlesDesktop}) no-repeat center/cover;
+
+  @media (max-width: 1024px) {
+    background: url(${milkbottlesMobilep}) no-repeat center/cover;
+  }
 `
 export const Image2 = styled.div`
   background: url(${orangeDesktop}) no-repeat center/cover;
+
+  @media (max-width: 1024px) {
+    background: url(${orangeMobile}) no-repeat center/cover;
+  }
 `
 export const Image4 = styled.div`
   background: url(${sugarcubesDesktop}) no-repeat center/cover;
+
+  @media (max-width: 1024px) {
+    background: url(${sugarcubesMobile}) no-repeat center/cover;
+  }
 `

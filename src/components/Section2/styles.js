@@ -50,7 +50,7 @@ export const Span = styled.span`
   background: linear-gradient(
     to bottom,
     transparent 50%,
-    hsl(51, 100%, 49%) 100%
+    hsl(7, 99%, 70%) 100%
   ); //FIX
 `
 
