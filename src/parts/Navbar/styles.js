@@ -30,11 +30,14 @@ export const Menu = styled.div`
   }
 
   @media (max-width: 1024px) {
-    display: none;
+    display: ${props => (props.test ? 'flex' : 'none')};
+    clip-path: polygon(94% 7%, 100% 0, 100% 19%, 100% 100%, 0 100%, 0 7%);
     flex-direction: column;
     align-items: center;
     position: absolute;
     top: 12rem;
+    left: 7%;
+    right: 7%;
     padding: 4rem 0;
     background-color: var(--white);
 
