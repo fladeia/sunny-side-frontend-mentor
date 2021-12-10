@@ -1,21 +1,21 @@
 import * as C from './styles'
+// import logo from '../../images/logo.svg'
 import {ReactComponent as Logo} from '../../images/logo.svg'
-import { HamburgerItem } from '../HamburgerItem'
-import { ContactButton } from '../ContactButton'
+import { SocialIcons } from '../SocialIcons'
 
-export const Navbar = () => {
+export const FooterNavbar = () => {
   return (
     <C.Nav>
-      <Logo fill={"hsl(0, 0%, 100%)"} />
+      {/* <C.Logo src={logo} alt="Logo"></C.Logo> */}
+      <Logo fill={"hsl(167, 40%, 24%)"} />
       <C.Menu>
         <ul>
           <li>Sobre</li>
           <li>Serviços</li>
           <li>Projetos</li>
         </ul>
-        <ContactButton /> 
       </C.Menu>
-      <HamburgerItem />
+      <SocialIcons />
     </C.Nav>
   )
 }
