@@ -19,13 +19,6 @@ export const Container = styled.div`
   }
 `
 
-export const Image3 = styled.div`
-  background: url(${coneDesktop}) no-repeat center/cover;
-
-  @media (max-width: 1024px) {
-    background: url(${coneMobile}) no-repeat center/cover;
-  }
-`
 export const Image1 = styled.div`
   background: url(${milkbottlesDesktop}) no-repeat center/cover;
 
@@ -33,6 +26,7 @@ export const Image1 = styled.div`
     background: url(${milkbottlesMobilep}) no-repeat center/cover;
   }
 `
+
 export const Image2 = styled.div`
   background: url(${orangeDesktop}) no-repeat center/cover;
 
@@ -40,6 +34,15 @@ export const Image2 = styled.div`
     background: url(${orangeMobile}) no-repeat center/cover;
   }
 `
+
+export const Image3 = styled.div`
+  background: url(${coneDesktop}) no-repeat center/cover;
+
+  @media (max-width: 1024px) {
+    background: url(${coneMobile}) no-repeat center/cover;
+  }
+`
+
 export const Image4 = styled.div`
   background: url(${sugarcubesDesktop}) no-repeat center/cover;
 

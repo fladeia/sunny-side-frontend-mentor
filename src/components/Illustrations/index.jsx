@@ -1,6 +1,6 @@
 import * as C from './styles'
 
-export const Ilustrations = () => {
+export const Illustrations = () => {
   return (
     <C.Container>
       <C.Image1 />
