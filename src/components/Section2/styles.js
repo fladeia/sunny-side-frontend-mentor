@@ -54,6 +54,15 @@ export const Span = styled.span`
     transparent 50%,
     hsl(7, 99%, 70%) 100%
   ); //FIX
+
+  :hover {
+    cursor: pointer;
+    background: linear-gradient(
+      to bottom,
+      transparent 50%,
+      hsl(7, 99%, 70%) 50%
+    ); //FIX
+  }
 `
 
 export const Img = styled.div`
