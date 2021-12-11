@@ -20,7 +20,7 @@ export const Navbar = () => {
 
   return (
     <C.Nav>
-      <Logo fill={"hsl(0, 0%, 100%)"} />
+      <C.LogoWrapper><Logo /></C.LogoWrapper>
       <C.Menu test={test}>
         <ul>
           <li>Sobre</li>

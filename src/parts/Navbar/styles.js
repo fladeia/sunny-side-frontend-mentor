@@ -7,8 +7,10 @@ export const Nav = styled.nav`
   padding: 4rem 3rem;
 `
 
-export const Logo = styled.img`
-  width: 15rem;
+export const LogoWrapper = styled.div`
+  svg {
+    fill: var(--white);
+  }
 `
 
 export const Menu = styled.div`
