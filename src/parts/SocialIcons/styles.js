@@ -7,3 +7,13 @@ export const Socials = styled.div`
     gap: 3rem;
   }
 `
+
+export const IconWrapper = styled.div`
+  svg {
+    fill: hsl(167, 40%, 24%);
+
+    :hover {
+      fill: var(--white);
+    }
+  }
+`

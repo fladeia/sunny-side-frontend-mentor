@@ -29,6 +29,11 @@ export const Menu = styled.div`
     font-size: 1.8rem;
     color: var(--darkDesaturatedCyan);
     list-style-type: none;
+
+    :hover {
+      color: var(--white);
+      cursor: pointer;
+    }
   }
 
   @media (max-width: 1024px) {

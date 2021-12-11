@@ -23,5 +23,9 @@ In HTML, the root element is always the html element.
 
 //img resizing
 
-export const Logo = styled.img` width: 11rem; `
+export const Logo = styled.img`width: 11rem;`
 <C.Logo src={logo} alt="Logo"></C.Logo>
+
+#styling ReactComponent (svg)
+https://stackoverflow.com/questions/62241217/styling-reactcomponent-svg-with-styledcomponents
+https://dev.to/abachi/how-to-change-svg-s-color-in-react-42g2
